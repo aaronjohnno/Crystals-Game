@@ -73,6 +73,7 @@ $(document).ready(function() {
 
 	// listen for clicks on any of the gems by targeting the gem class
 	$(".gem").on("click", function() {
+        console.log("Gem pressed")
 		// each gem has a value attribute of gem1, gem2, gem3, or gem 4
 		// use this attribute to identify which gem the user actually clicked
 		var pressed = $(this).attr("value");
