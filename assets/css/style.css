@@ -6,9 +6,14 @@
 .img-responsive {
     float: left;
     text-align: center;
+
     }
 
 .row {
     overflow: auto;
     text-align: center;
+    
+}
+#gemz {
+    margin-left: 620px;
 }
